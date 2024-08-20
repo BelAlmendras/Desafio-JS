@@ -1,0 +1,80 @@
+.error { color: red; }
+.success { color: green; }
+.form-group { margin-bottom: 15px; }
+label { display: block; margin-bottom: 5px; }
+input, textarea { width: 100%; padding: 8px; box-sizing: border-box; }
+button { padding: 10px 20px; }
+h1, h2, h3{
+    text-align: center;
+}
+* {
+    font-family: Arial, Helvetica, sans-serif;
+  
+}
+.formulario{ 
+    padding-left: 20%;
+    padding-right: 20%;
+    margin: auto;
+    margin-bottom: 5%;
+}
+.colores {
+    display: flex;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin: auto;
+    margin-bottom: 5%;
+}
+.color-selector {
+    width: 25%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.color-selector button {
+    width: 100%;
+    height: 50px;
+    border: none;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.color-display {
+    width: 75%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.color-display div {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.calculator input {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.calculator button {
+    padding: 10px;
+    font-size: 16px;
+    width: 48%;
+    margin: 1%;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+}
+.resultado {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}

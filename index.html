@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafío JS</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://kit.fontawesome.com/04d06360b8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+                <h1>TEST DE JAVASCRIPT</h1> 
+    <!-- Requerimiento 1 -->
+     <section class="formulario">
+    <h2>Escribe para probar este formulario </h2>
+    <h3>(Es gratis!)</h3>
+    <form id="contact-form">
+        <p id="form-message"></p>
+        <div class="form-group">
+            
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name">
+            <p id="name-message" class="error"></p>
+        </div>
+        <div class="form-group">
+            <label for="subject">Asunto:</label>
+            <input type="text" id="subject" name="subject">
+            <p id="subject-message" class="error"></p>
+        </div>
+        <div class="form-group">
+            <label for="message-text">Mensaje:</label>
+            <textarea id="message-text" name="message-text" rows="4"></textarea>
+            <p id="message-text-message" class="error"></p>
+        </div>      
+        <button type="submit">Enviar</button>
+    </form>
+</section>
+
+      <!-- Requerimiento 2 -->
+      <h2>Prueba la herramienta de color</h2>
+       <section class="colores">
+       
+  <div class="color-selector">
+    <button style="background-color: rgb(255, 138, 138);" data-color="rgb(255, 138, 138)"></button>
+    <button style="background-color: rgb(244, 222, 179);" data-color="rgb(244, 222, 179)"></button>
+    <button style="background-color: rgb(240, 234, 172);" data-color="rgb(240, 234, 172)"></button>
+    <button style="background-color: rgb(209, 233, 246);" data-color="rgb(209, 233, 246)"></button>
+    <button style="background-color: rgb(204, 224, 172);" data-color="rgb(204, 224, 172)"></button>
+    <button style="background-color: rgb(192, 199, 140);" data-color="rgb(192, 199, 140)"></button>
+   
+
+</div>
+<div class="color-display" id="color-display">
+    <div id="color-code"> Selecciona un color</div>
+</div>
+
+       </section>
+
+             <!-- Requerimiento 3 -->
+             <section class="calculadora">
+                <h2>Prueba la increíble calculadora digital</h2>
+                <h3>Funciona! <i class="fa-solid fa-face-smile"></i></h3>
+                <div class="calculator">
+                    <input type="number" id="num1" placeholder="Número 1" />
+                    <input type="number" id="num2" placeholder="Número 2" />
+                    <button id="addButton">Sumar</button>
+                    <button id="subtractButton">Restar</button>
+                    <div class="resultado" id="resultados">Resultado: 0</div>
+                </div> 
+            </section>
+       
+<script type="module" src="./assets/js/script.js"></script>
+
+   
+</body>
+</html>
